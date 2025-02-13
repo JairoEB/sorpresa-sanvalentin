@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atrapa los Corazones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pantalla del minijuego -->
+    <div id="game-screen">
+        <h1>Atrapa los Corazones</h1>
+        <p>Atrapa 10 corazones para descubrir tu regalito.</p>
+        <div id="score">Corazones atrapados: <span id="count">0</span>/10</div>
+        <div id="hearts-container"></div>
+    </div>
+
+    <!-- Pantalla de cuenta regresiva (oculta inicialmente) -->
+    <div id="countdown-screen" class="hidden">
+        <h1>¡Prepárate!</h1>
+        <p>Tu regalo se está preparando...</p>
+        <div id="countdown">3</div>
+    </div>
+
+    <!-- Pantalla de la carta (oculta inicialmente) -->
+    <div id="card-screen" class="hidden">
+        <div class="container">
+            <!-- Espacio para el GIF del gatito -->
+            <div class="gif-container">
+                <img src="gatito.gif" alt="Gatito" class="gatito-gif">
+            </div>
+            <header>
+                <h1>Para Mi Amor</h1>
+                <p>Un regalo especial para ti en San Valentín</p>
+            </header>
+            <section class="content">
+                <div class="card">
+                    <h2>Te amo muchísimo</h2>
+                    <p>Mi Mafercita mi niña preciosa,</p>
+                    <p>En este día especial, quiero recordarte lo mucho que te amo y lo importante que eres para mí. Eres mi razón de ser y mi mayor inspiración.</p>
+                    <p>Con todo mi amor, Jairo</p>
+                </div>
+                <div class="gallery">
+                    <h2>Nuestras fotos en otros universos</h2>
+                    <div class="photos">
+                        <img src="foto1.jpg" alt="Foto 1">
+                        <img src="foto2.jpg" alt="Foto 2">
+                        <img src="foto3.png" alt="Foto 3">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>© 2025 Jairo. Todos los derechos reservados. xd</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
